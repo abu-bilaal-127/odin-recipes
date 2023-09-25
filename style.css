@@ -1,0 +1,16 @@
+body {
+    font-family: "Verdana", "Tahoma", sans-serif;
+}
+
+h1, h3 {
+    color:orange;
+}
+
+a {
+    font-weight: 650;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
