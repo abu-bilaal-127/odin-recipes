@@ -8,9 +8,35 @@ h1, h3 {
 
 a {
     font-weight: 650;
+    text-decoration: none;
 }
 
 img {
     height: auto;
     width: 300px;
+}
+
+.recipes {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-title {
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+
+.beef > a, .chicken-pot > a, .turkey-goulash > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 40px;
+    color: orange;
 }
